@@ -1,0 +1,9 @@
+Why Wadi Watch ?
+
+We chose the name Wadi Watch because, well, if you know anything about Sinai and the Red Sea region, you know that wadis are not just random dry valleys. When heavy rain hits, these places can turn into flash-flood highways really fast, and that is definitely not the kind of surprise anyone wants. So, we wanted a name that actually connects to the problem we are trying to solve.
+
+The word “Wadi” connects the system to the real environment we are dealing with, while “Watch” represents what our system does: constantly keeping an eye on sensor data, weather forecasts, and citizen reports to spot potential danger as early as possible. Basically, it is like having someone on duty 24/7, except it never gets sleepy, distracted, or says, “I’ll check it in five minutes.” It helps the operations room understand what is happening and make decisions before the situation gets out of control.
+
+There is also a small detail we really liked: Watch is the first alert level in our system, followed by Normal, Warning, and Emergency. This makes the name even more meaningful because the whole point is to catch the signs early, while there is still time to react, instead of waiting until everyone is already in emergency mode.
+
+We also wanted something short, memorable, and easy to pronounce for both officers and citizens. Nobody wants to remember a super long, complicated name during a flood emergency! Wadi Watch sounds simple, has a clear connection to the region, and explains the main idea behind our project without needing a whole presentation to understand it. In short, we want to watch the wadis before the wadis give everyone a very bad day.
