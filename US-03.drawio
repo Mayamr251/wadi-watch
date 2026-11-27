@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="T9DETwowHp2tzt_pmWFb">
+    <mxGraphModel dx="1911" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-80" parent="1" style="text;html=1;align=center;verticalAlign=middle;" value="US-04: Escalation to the Regional Director" vertex="1">
+          <mxGeometry height="30" width="400" x="610" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-82" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="55" width="30" x="560" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value=":Regional Director" vertex="1">
+          <mxGeometry height="30" width="130" x="510" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value=":System" vertex="1">
+          <mxGeometry height="30" width="130" x="950" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-85" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="265" as="sourcePoint" />
+            <mxPoint x="570" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-86" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="265" as="sourcePoint" />
+            <mxPoint x="1010" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-87" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=20;" value="alt" vertex="1">
+          <mxGeometry height="665" width="900" x="400" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-88" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=20;" value="alt" vertex="1">
+          <mxGeometry height="315" width="876" x="414" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-89" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="1300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-90" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="780" as="sourcePoint" />
+            <mxPoint x="1288" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-91" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[Duty Officer decided within 10 minutes]" vertex="1">
+          <mxGeometry height="20" width="480" x="450" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-92" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=10;align=left;spacingLeft=6;" value="Alert is not escalated" vertex="1">
+          <mxGeometry height="44" width="290" x="1010" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-93" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[No decision within 10 minutes]" vertex="1">
+          <mxGeometry height="20" width="480" x="400" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-94" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="sendUnansweredAlert(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-95" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="openAlert(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="535" as="sourcePoint" />
+            <mxPoint x="1010" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-96" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="alertDetails">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-97" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[Director selects Confirm]" vertex="1">
+          <mxGeometry height="20" width="480" x="460" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-98" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="confirm(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="690" as="sourcePoint" />
+            <mxPoint x="1010" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-99" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="decision saved (Confirmed, director, time)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="745" as="sourcePoint" />
+            <mxPoint x="570" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-100" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[Director selects Dismiss]" vertex="1">
+          <mxGeometry height="20" width="480" x="414" y="787.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-101" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="dismiss(alertId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="860" as="sourcePoint" />
+            <mxPoint x="1010" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-102" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="decision saved (Dismissed, director, time)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="915" as="sourcePoint" />
+            <mxPoint x="570" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

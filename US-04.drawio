@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="T9DETwowHp2tzt_pmWFb">
+    <mxGraphModel dx="2020" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-104" parent="1" style="text;html=1;align=center;verticalAlign=middle;" value="US-05: Live Map and Suggested Rescue Team" vertex="1">
+          <mxGeometry height="30" width="400" x="610" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-105" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="55" width="30" x="565" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value=":Dispatch Officer" vertex="1">
+          <mxGeometry height="30" width="130" x="515" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value=":System" vertex="1">
+          <mxGeometry height="30" width="130" x="955" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-108" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="290" as="sourcePoint" />
+            <mxPoint x="580" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-109" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="290" as="sourcePoint" />
+            <mxPoint x="1020" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-110" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="openLiveMap()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="330" as="sourcePoint" />
+            <mxPoint x="1020" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-111" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=20;" value="alt" vertex="1">
+          <mxGeometry height="205" width="900" x="414" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-112" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[Team tablet is connected]" vertex="1">
+          <mxGeometry height="20" width="480" x="475" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-113" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[Team tablet is disconnected]" vertex="1">
+          <mxGeometry height="20" width="480" x="414" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-114" edge="1" parent="1" style="html=1;endArrow=none;dashed=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="462.5" as="sourcePoint" />
+            <mxPoint x="1314" y="462.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-115" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="teamLocations (updated every 30 seconds)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="420" as="sourcePoint" />
+            <mxPoint x="580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-116" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="lastKnownLocation, time of last update">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="525" as="sourcePoint" />
+            <mxPoint x="580" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-117" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="openRescueTask(taskId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="610" as="sourcePoint" />
+            <mxPoint x="1020" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-118" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="suggestedTeams (distance, equipment, workload)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="665" as="sourcePoint" />
+            <mxPoint x="580" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-119" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="assignTask(taskId, teamId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="720" as="sourcePoint" />
+            <mxPoint x="1020" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-120" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=open;endFill=0;dashed=1;" value="taskAssigned (sent to team tablet, status Assigned)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="775" as="sourcePoint" />
+            <mxPoint x="580" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-121" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=20;" value="opt" vertex="1">
+          <mxGeometry height="100" width="900" x="414" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-122" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="[No update on a task for 30 minutes (A16)]" vertex="1">
+          <mxGeometry height="20" width="480" x="460" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="f7AzOAAhKJBl-kv5AHiI-123" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=default;rounded=0;endArrow=block;endFill=1;" value="sendReminder(taskId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="860" as="sourcePoint" />
+            <mxPoint x="580" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
